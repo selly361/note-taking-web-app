@@ -1,0 +1,9 @@
+{
+  "name": "note-taking-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Apps are not scaffolded yet\"",
+    "test": "echo \"Tests are not set up yet\""
+  }
+}
