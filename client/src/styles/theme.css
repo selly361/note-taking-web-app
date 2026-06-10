@@ -21,4 +21,33 @@
 
   --color-red-100: #ffd5d8;
   --color-red-500: #fb3748;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Noto Serif', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Source Code Pro', Consolas, 'Courier New', monospace;
+
+  --text-heading-lg: 1.5rem;
+  --text-heading-lg--line-height: 1.2;
+
+  --text-heading-md: 1.25rem;
+  --text-heading-md--line-height: 1.2;
+
+  --text-title-sm: 1rem;
+  --text-title-sm--line-height: 1.2;
+
+  --text-label-sm: 0.875rem;
+  --text-label-sm--line-height: 1.2;
+
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.3;
+
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.2;
+
+  --tracking-heading-lg: -0.03125rem;
+  --tracking-heading-md: -0.01875rem;
+  --tracking-title-sm: -0.01875rem;
+  --tracking-label-sm: -0.0125rem;
+  --tracking-body-sm: -0.0125rem;
+  --tracking-caption: -0.0125rem;
 }
