@@ -1,3 +1,5 @@
+@custom-variant dark (&:where([data-color-theme='dark'], [data-color-theme='dark'] *));
+
 @theme {
   --color-neutral-0: #ffffff;
   --color-neutral-50: #f5f7fa;
