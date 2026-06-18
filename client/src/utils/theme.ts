@@ -6,7 +6,7 @@ import {
   FONT_THEME_STORAGE_KEY,
   FONT_THEMES,
 } from '../constants'
-import type { ColorTheme, FontTheme } from '../types'
+import type { ColorTheme, FontTheme, ResolvedColorTheme } from '../types'
 
 function isColorTheme(value: string | null): value is ColorTheme {
   return COLOR_THEMES.includes(value as ColorTheme)
@@ -42,4 +42,16 @@ export function storeColorTheme(theme: ColorTheme) {
 
 export function storeFontTheme(theme: FontTheme) {
   localStorage.setItem(FONT_THEME_STORAGE_KEY, theme)
+}
+
+export function getSystemColorTheme(): ResolvedColorTheme {
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+}
+
+export function resolveColorTheme(theme: ColorTheme): ResolvedColorTheme {
+  if (theme === 'system') {
+    return getSystemColorTheme()
+  }
+
+  return theme
 }
