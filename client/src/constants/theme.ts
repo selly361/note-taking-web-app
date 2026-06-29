@@ -1,4 +1,4 @@
-import type { ColorTheme, FontTheme } from '../types'
+import type { ColorTheme, FontTheme } from '@/types'
 
 export const COLOR_THEMES: ColorTheme[] = ['light', 'dark', 'system']
 

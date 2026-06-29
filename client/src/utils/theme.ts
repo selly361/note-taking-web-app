@@ -5,8 +5,8 @@ import {
   DEFAULT_FONT_THEME,
   FONT_THEME_STORAGE_KEY,
   FONT_THEMES,
-} from '../constants'
-import type { ColorTheme, FontTheme, ResolvedColorTheme } from '../types'
+} from '@/constants'
+import type { ColorTheme, FontTheme, ResolvedColorTheme } from '@/types'
 
 function isColorTheme(value: string | null): value is ColorTheme {
   return COLOR_THEMES.includes(value as ColorTheme)

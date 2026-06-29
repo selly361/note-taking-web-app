@@ -6,14 +6,14 @@ import {
   useMemo,
   useState,
 } from 'react'
-import type { ColorTheme, FontTheme, ResolvedColorTheme } from '../types'
+import type { ColorTheme, FontTheme, ResolvedColorTheme } from '@/types'
 import {
   getStoredColorTheme,
   getStoredFontTheme,
   getSystemColorTheme,
   storeColorTheme,
   storeFontTheme,
-} from '../utils'
+} from '@/utils'
 
 type ThemeContextValue = {
   colorTheme: ColorTheme

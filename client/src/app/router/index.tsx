@@ -1,10 +1,5 @@
 import { Navigate, createBrowserRouter } from 'react-router'
-import {
-  AppLayout,
-  AuthLayout,
-  NotesLayout,
-  SettingsLayout,
-} from '../layouts'
+import { AppLayout, AuthLayout, NotesLayout, SettingsLayout } from '../layouts'
 import {
   ChangePasswordPage,
   ColorThemePage,
@@ -17,14 +12,14 @@ import {
   NotFoundPage,
   ResetPasswordPage,
   SignupPage,
-} from '../../pages'
+} from '@/pages'
 
 function RootRedirect() {
-  return <Navigate replace to="/notes" />
+  return <Navigate replace to='/notes' />
 }
 
 function SettingsRedirect() {
-  return <Navigate replace to="/settings/color-theme" />
+  return <Navigate replace to='/settings/color-theme' />
 }
 
 export const router = createBrowserRouter([

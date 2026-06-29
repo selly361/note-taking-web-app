@@ -1,4 +1,4 @@
-import { PagePlaceholder } from '../../../components'
+import { PagePlaceholder } from '@/components'
 
 export function ResetPasswordPage() {
   return (
