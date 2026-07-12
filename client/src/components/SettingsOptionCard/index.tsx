@@ -31,6 +31,7 @@ export function SettingsOptionCard({
       )}
     >
       <input
+        aria-label={title}
         checked={checked}
         className='sr-only'
         name={name}
