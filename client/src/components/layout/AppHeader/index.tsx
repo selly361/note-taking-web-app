@@ -1,5 +1,5 @@
 import { useLocation, useSearchParams } from 'react-router'
-import { SearchInput } from '../SearchInput'
+import { SearchInput } from '@/components/SearchInput'
 
 export function AppHeader() {
   const { pathname } = useLocation()

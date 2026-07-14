@@ -1,5 +1,5 @@
-export { AppHeader } from './AppHeader'
-export { AppSidebar } from './AppSidebar'
+export { AppHeader } from './layout/AppHeader'
+export { AppSidebar } from './layout/AppSidebar'
 export { NoteActionsPanel } from './NoteActionsPanel'
 export { NotesListPanel } from './NotesListPanel'
 export { SearchInput } from './SearchInput'
