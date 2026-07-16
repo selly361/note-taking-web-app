@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { MoonIcon, SunIcon, SystemThemeIcon } from '@/assets/icons'
-import { SettingsOptionCard } from '@/components/SettingsOptionCard'
+import { SettingsOptionCard } from '@/components/settings/SettingsOptionCard'
 import { useTheme } from '@/hooks'
 import type { ColorTheme } from '@/types'
 

@@ -6,7 +6,7 @@ import {
   LogoutIcon,
   PasswordIcon,
   SunIcon,
-} from '../../assets/icons'
+} from '@/assets/icons'
 
 const settingsLinks = [
   {

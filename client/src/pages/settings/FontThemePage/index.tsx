@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { useState, type FormEventHandler } from 'react'
-import { SettingsOptionCard } from '@/components/SettingsOptionCard'
+import { SettingsOptionCard } from '@/components/settings/SettingsOptionCard'
 import { useTheme } from '@/hooks'
 import type { FontTheme } from '@/types'
 
