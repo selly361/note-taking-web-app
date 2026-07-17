@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { UseFormRegisterReturn } from 'react-hook-form'
 import { EyeIcon, EyeOffIcon } from '@/assets/icons'
-import { TextField } from '@/components/TextField'
+import { TextField } from '@/components/ui/TextField'
 
 type PasswordFieldProps = {
   id: string
